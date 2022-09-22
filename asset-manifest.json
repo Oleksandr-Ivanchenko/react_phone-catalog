@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "./static/css/main.582d0397.chunk.css",
+    "main.js": "./static/js/main.b2eb470a.chunk.js",
+    "main.js.map": "./static/js/main.b2eb470a.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.330dba63.js",
+    "runtime-main.js.map": "./static/js/runtime-main.330dba63.js.map",
+    "static/js/2.2db71cee.chunk.js": "./static/js/2.2db71cee.chunk.js",
+    "static/js/2.2db71cee.chunk.js.map": "./static/js/2.2db71cee.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.582d0397.chunk.css.map": "./static/css/main.582d0397.chunk.css.map",
+    "static/js/2.2db71cee.chunk.js.LICENSE.txt": "./static/js/2.2db71cee.chunk.js.LICENSE.txt",
+    "static/media/Logo.scss": "./static/media/LOGO.13ce922e.svg",
+    "static/media/ShopCategory.scss": "./static/media/tablets.46086f4b.jpg",
+    "static/media/MayLike.scss": "./static/media/arrow_right.a8e610bf.svg",
+    "static/media/FavoritesPage.scss": "./static/media/home.e110292a.svg",
+    "static/media/Footer.scss": "./static/media/arrow_top.3ffcd791.svg",
+    "static/media/Header.scss": "./static/media/bag.1962e424.svg",
+    "static/media/Search.scss": "./static/media/search.eb670dd9.svg",
+    "static/media/CartPage.scss": "./static/media/plus.dea15724.svg",
+    "static/media/ProductDetailsPage.scss": "./static/media/rectangle_hover.dfdab0db.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.330dba63.js",
+    "static/js/2.2db71cee.chunk.js",
+    "static/css/main.582d0397.chunk.css",
+    "static/js/main.b2eb470a.chunk.js"
+  ]
+}
