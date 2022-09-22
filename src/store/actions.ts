@@ -1,6 +1,5 @@
 import { ObjectForCart } from '../react-app-env';
 
-// Action types - is just a constant. MUST have a unique value.
 export enum ActionType {
   SET_FAVORITES = 'SET_FAVORITES',
   SET_SELECTED_CART = 'SET_SELECTED_CART',
@@ -46,7 +45,6 @@ export interface SetQuery {
   payload: string,
 }
 
-// Action creators - a function returning an action object
 export const setFavorites = (payload: string): SetFavorites => ({
   type: ActionType.SET_FAVORITES,
   payload,

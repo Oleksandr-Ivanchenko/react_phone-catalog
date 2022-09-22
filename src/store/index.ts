@@ -12,14 +12,12 @@ import {
   SetQuery,
 } from './actions';
 
-// Initial state
 const initialState: RootState = {
   favorits: [],
   selectedcart: [],
   query: '',
 };
 
-// rootReducer - this function is called after dispatching an action
 const rootReducer = (
   state = initialState,
   action:
@@ -82,10 +80,9 @@ const rootReducer = (
   }
 };
 
-// The `store` should be passed to the <Provider store={store}> in `/src/index.tsx`
 export const store = createStore(
   rootReducer,
-  composeWithDevTools(), // allows you to use http://extension.remotedev.io/
+  composeWithDevTools(),
 );
 
 export default store;

@@ -233,8 +233,8 @@ export const ProductDetailsPage = () => {
               <button
                 type="button"
                 className={isAddedProduct
-                  // eslint-disable-next-line max-len
-                  ? 'productdetailspage__addtocart--pressed productdetailspage__text-addtocart--pressed'
+                  ? ('productdetailspage__addtocart--pressed '
+                    + 'productdetailspage__text-addtocart--pressed')
                   : 'productdetailspage__addtocart'}
                 onClick={() => {
                   setIsAddedProduct(!isAddedProduct);

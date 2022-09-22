@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { IconButton } from '@mui/material';
 import { useDispatch, useSelector } from 'react-redux';
-// import { useSelector } from 'react-redux';
 import { Footer } from '../../components/Footer/Footer';
 import { Header } from '../../components/Header/Header';
 
@@ -198,8 +197,8 @@ const CartPage = () => {
               <button
                 type="button"
                 className={isPressed
-                  // eslint-disable-next-line max-len
-                  ? 'cartpage__checkout--pressed cartpage__text-checkout--pressed'
+                  ? ('cartpage__checkout--pressed '
+                    + 'cartpage__text-checkout--pressed')
                   : 'cartpage__checkout'}
                 onClick={() => {
                   setIsPressed(!isPressed);

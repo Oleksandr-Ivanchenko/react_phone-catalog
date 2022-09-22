@@ -36,9 +36,6 @@ export const MayLike = () => {
     };
   }
 
-  // eslint-disable-next-line no-console
-  console.log(randomList);
-
   useEffect(() => {
     if (randomList) {
       setAllProducts(randomList);

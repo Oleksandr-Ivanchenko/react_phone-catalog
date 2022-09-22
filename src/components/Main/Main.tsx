@@ -1,18 +1,12 @@
 import { useState } from 'react';
-import { useSelector } from 'react-redux';
 import { HotPrices } from './HotPrices/HotPrices';
 import './Main.scss';
 import { NewModels } from './NewModels/NewModels';
 import { ShopCategory } from './ShopCategory/ShopCategory';
 import { TopBanners } from './TopBanners/TopBanners';
-import { getFavoritesSelector } from '../../store/selectors';
 
 export const Main: React.FC = () => {
   const [isNumberBanner, setIsNumberBanner] = useState(1);
-  const favorites = useSelector(getFavoritesSelector);
-
-  // eslint-disable-next-line no-console
-  console.log(favorites);
 
   return (
     <div className="main">

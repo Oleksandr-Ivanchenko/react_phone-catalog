@@ -37,9 +37,6 @@ export const NewModels = () => {
     } else {
       setdisableNext(true);
     }
-
-    // eslint-disable-next-line no-console
-    console.log(position);
   };
 
   const getPrev = () => {
